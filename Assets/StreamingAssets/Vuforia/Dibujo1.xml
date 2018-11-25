@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="LanzadorBobst" size="0.126000 0.144331"/>
+        <ImageTarget name="CaraLateralGuay" size="0.156000 0.052911"/>
+        <ImageTarget name="ImagenCaja" size="0.126000 0.065756"/>
+        <ImageTarget name="CajaMierdosaMecanizada.Top" size="1.305000 4.849999"/>
+        <ImageTarget name="CajaMierdosaMecanizada.Right" size="4.850000 1.645000"/>
+        <ImageTarget name="CajaMierdosaMecanizada.Back" size="1.305000 1.645000"/>
+        <ImageTarget name="CajaMierdosaMecanizada.Left" size="4.850000 1.645000"/>
+        <ImageTarget name="CajaMierdosaMecanizada.Front" size="1.305000 1.645000"/>
+        <MultiTarget name="CajaMierdosaMecanizada">
+            <Part name="CajaMierdosaMecanizada.Left" translation="-0.6524999737739563 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="CajaMierdosaMecanizada.Right" translation="0.6524999737739563 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="CajaMierdosaMecanizada.Front" translation="0 0 2.424999952316284" rotation="AD: 1 0 0 0"/>
+            <Part name="CajaMierdosaMecanizada.Back" translation="0 0 -2.424999952316284" rotation="AD: 0 1 0 180"/>
+            <Part name="CajaMierdosaMecanizada.Top" translation="0 0.8224999904632568 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
